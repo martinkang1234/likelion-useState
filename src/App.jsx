@@ -1,7 +1,12 @@
-function App() {
+import React from "react";
+import Counter from "./Counter";
+
+const App = () => {
   return (
-    <div>초기화 완료</div>
+    <div>
+      <Counter />
+    </div>
   );
-}
+};
 
 export default App;
